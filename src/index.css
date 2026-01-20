@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #2563EB; /* Bright Blue */
+    --color-secondary: #475569; /* Slate 600 */
+    --font-heading: 'Inter', system-ui, sans-serif;
+    --font-mono: 'Fira Code', monospace;
+
+    --animate-fade-in-up: fade-in-up 1s ease-out forwards;
+    @keyframes fade-in-up {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: var(--font-heading);
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #334155; /* Slate 700 */
+  background-color: #F8FAFC; /* Slate 50 */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+  color-scheme: dark;
+  color: #E2E8F0; /* Slate 200 */
+  background-color: #020617; /* Slate 950 - Matching previous App bg */
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0F172A; /* Slate 900 */
+    font-weight: 700;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: #F1F5F9; /* Slate 100 */
+}
+
+a {
+  font-weight: 500;
+  color: #2563EB;
+  text-decoration: inherit;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #1D4ED8;
+}
+.dark a:hover {
+  color: #60A5FA;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
