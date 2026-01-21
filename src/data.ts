@@ -20,7 +20,7 @@ export const portfolioData = {
       title: "Rem",
       description: "Built a reminder application with scheduled and repetitive notifications using Awesome Notifications. Enabled local data storage using ObjectBox.",
       tags: ["Flutter", "ObjectBox", "Awesome Notifications"],
-      link: "#"
+      link: "https://github.com/ThisIsSidam/rem-reminds-you"
     }
   ],
   experience: [
