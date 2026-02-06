@@ -4,8 +4,8 @@ export const portfolioData = {
   contact: {
     phone: "+91 99 10 99 6171",
     email: "anshuksawork@gmail.com",
-    linkedin: "https://linkedin.com/in/anshu-ks", 
-    github: "https://github.com/ThisIsSidam" 
+    linkedin: "https://linkedin.com/in/anshu-ks",
+    github: "https://github.com/ThisIsSidam"
   },
   about: "A young software developer with practical experience building production mobile applications using Flutter and Firebase. Proficient in UI development, state management (Riverpod, Bloc), API integration, notifications and more. Familiar with contributing in development of internal tools and dashboards, with core strength in mobile app development.",
   skills: [
@@ -34,25 +34,25 @@ export const portfolioData = {
       ],
       sections: [
         {
-            title: "Stag Flutter App",
-            description: "Developed a comprehensive event booking application.",
-            status: "Not published yet",
-            items: [
-                "Implemented entire app workflow including event discovery, search, and ticket booking.",
-                "Integrated Firebase services including Remote Configs for dynamic updates and Cloud Functions for backend logic.",
-                "Built a robust real-time chat system using Firestore.",
-                "Created Manager UI for event organizers to upload and manage events."
-            ]
+          title: "Stag Flutter App",
+          description: "Developed a comprehensive event booking application.",
+          status: "Not published yet",
+          items: [
+            "Implemented entire app workflow including event discovery, search, and ticket booking.",
+            "Integrated Firebase services including Remote Configs for dynamic updates and Cloud Functions for backend logic.",
+            "Built a robust real-time chat system using Firestore.",
+            "Created Manager UI for event organizers to upload and manage events."
+          ],
         },
         {
-            title: "Stag Admin",
-            description: "Built a web-based admin dashboard for internal use.",
-            status: "Internal Tool",
-            items: [
-                "Developed using React with a Node.js backend.",
-                "Enabled efficient management of users, events, and bookings.",
-                "Implemented automated data cleanup routines."
-            ]
+          title: "Stag Admin",
+          description: "Built a web-based admin dashboard for internal use.",
+          status: "Internal Tool",
+          items: [
+            "Developed using React with a Node.js backend.",
+            "Enabled efficient management of users, events, and bookings.",
+            "Implemented automated data cleanup routines."
+          ],
         }
       ]
     },
@@ -66,34 +66,45 @@ export const portfolioData = {
       ],
       sections: [
         {
-            title: "Vegverse",
-            description: "A food delivery application.",
-            link: "https://play.google.com/store/apps/details?id=com.vegverse.app",
-            items: [
-                "Worked on various UI elements ensuring a smooth user experience.",
-                "Implemented complex UI interactions like disappearing app bars.",
-                "Optimized UI performance for scrolling lists."
-            ]
+          title: "Vegverse",
+          description: "A food delivery application.",
+          link: "https://play.google.com/store/apps/details?id=com.vegverse.app",
+          items: [
+            "Worked on various UI elements ensuring a smooth user experience.",
+            "Implemented complex UI interactions like disappearing app bars.",
+            "Optimized UI performance for scrolling lists."
+          ],
+          images: [
+            '/my-portfolio/assets/vegverse1.jpg',
+            '/my-portfolio/assets/vegverse2.jpg',
+            '/my-portfolio/assets/vegverse3.jpg',
+            '/my-portfolio/assets/vegverse4.jpg',
+          ]
         },
         {
-            title: "Urdoer",
-            description: "Handled the entire application development independently.",
-            link: "https://play.google.com/store/apps/details?id=com.urdoer.app",
-            items: [
-                "Managed state using Riverpod.",
-                "Handled all API integrations using Dio.",
-                "Implemented a chat system and cloud-based file manager."
-            ]
+          title: "Urdoer",
+          description: "A gig marketplace application. Handled the entire application development independently.",
+          link: "https://play.google.com/store/apps/details?id=com.urdoer.app",
+          items: [
+            "Managed state using Riverpod.",
+            "Handled all API integrations using Dio.",
+            "Implemented a chat system and cloud-based file manager."
+          ],
+          images: [
+            'https://play-lh.googleusercontent.com/CIbvpGJzO_9WQYT7Nc8Jl2kW1OFxGcTAXFIHK4kI7aCuXuH1dQ4Y2sFSBrCzHyHzGAZz=w1052-h592-rw',
+            'https://play-lh.googleusercontent.com/qoePEADCFViwCwpcMbiMpAhcvXg5yWjCLwKgHqyCHY8eGL0eRemDhD6I71aagogF8Ns=w1052-h592-rw',
+            'https://play-lh.googleusercontent.com/UKrxJucIXFTFRn902VvPSFsxJKxBJ9GDQ1uU9gyvkLhWP5v_3YL0YqaB_BHUCnhxxTI=w1052-h592-rw',
+          ]
         },
         {
-            title: "Internal Android Automation App",
-            description: "Native Android application for internal process automation.",
-            status: "Internal Tool",
-            items: [
-                "Built using Kotlin for Android.",
-                "Controlled via a web interface built with React and Node.js.",
-                "Automated key internal workflows."
-            ]
+          title: "Internal Android Automation App",
+          description: "Native Android application for internal process automation.",
+          status: "Internal Tool",
+          items: [
+            "Built using Kotlin for Android.",
+            "Controlled via a web interface built with React and Node.js.",
+            "Automated key internal workflows."
+          ],
         }
       ]
     }
